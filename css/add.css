@@ -1,0 +1,281 @@
+@charset "utf-8";
+.page {
+  width: 1348px;
+  height: 1078px;
+  margin: 0 auto;
+  background-color: #ececec;
+}
+.title {
+  height: 80px;
+  line-height: 80px;
+  background-color: #e9967a;
+  font-size: 28px;
+  color: #fff;
+  padding-left: 52px;
+}
+.content {
+  margin-top: 15px;
+  margin-left: 29px;
+}
+.content .ti {
+  line-height: 51px;
+  font-size: 20px;
+  color: #333;
+}
+.content .dan {
+  margin-bottom: 15px;
+  color: #333;
+}
+.content .dan span {
+  display: inline-block;
+  width: 7px;
+  height: 8px;
+  color: #ff0000;
+  margin-right: 10px;
+}
+.content .dan input {
+  width: 727px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-left: 25px;
+  font-size: 12px;
+}
+.content .dan .dan1 {
+  width: 706px;
+  padding-left: 21px;
+}
+.content .lei {
+  display: flex;
+}
+.content .lei .name {
+  margin-top: 20px;
+}
+.content .lei .fen {
+  display: flex;
+  justify-content: space-between;
+  width: 314px;
+  margin-top: 15px;
+  margin-left: 29px;
+}
+.content .lei .fen .box {
+  width: 99px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #393939;
+}
+.content .lei .fen .box .show {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c8c8c8;
+  color: #fff;
+  margin: 0 5px 0 10px;
+}
+.content .lei input[type="submit"] {
+  width: 73px;
+  height: 33px;
+  background-color: #438eb9;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 16px;
+}
+.content .inform {
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  height: 55px;
+  margin-top: 26px;
+}
+.content .inform .blok {
+  width: 180px;
+  color: #333;
+}
+.content .inform .blok .star {
+  display: inline-block;
+  width: 7px;
+  height: 8px;
+  color: #ff0000;
+  margin-right: 10px;
+}
+.content .inform .blok input {
+  width: 155px;
+  height: 26px;
+  border: 1px solid #c6c6c6;
+  background-color: #fff;
+  margin-top: 9px;
+}
+.content .inform .blok .liang {
+  font-size: 12px;
+  margin-left: 6px;
+  color: #333;
+}
+.content .set {
+  height: 34px;
+  line-height: 34px;
+  color: #333;
+  margin-top: 32px;
+}
+.content .set input {
+  width: 727px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-left: 41px;
+  margin-right: 7px;
+}
+.content .set span {
+  font-size: 12px;
+  color: #333;
+}
+.content .go {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 37px;
+}
+.content .go p {
+  display: inline-block;
+}
+.content .go input {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+}
+.content .go .c1 {
+  margin-left: 21px;
+}
+.content .go .c2 {
+  margin-left: 39px;
+}
+.content .go1 {
+  margin-top: 42px;
+}
+.content .dan2 {
+  margin-top: 35px;
+}
+.content .dan2 .wen {
+  width: 166px;
+  height: 21px;
+  background-color: #ececec;
+  border: none;
+}
+.content .dan3 {
+  height: 204px;
+  margin-top: 25px;
+}
+.content .dan3 input {
+  width: 1183px;
+  height: 204px;
+  background-color: #fff;
+}
+.content .dan3 p {
+  display: inline-block;
+  vertical-align: top;
+}
+.content .nue {
+  display: flex;
+  justify-content: space-between;
+  width: 314px;
+  margin: 32px auto;
+}
+.content .nue input[type="submit"] {
+  border-radius: 3px;
+  font-size: 12px;
+  color: #fff;
+}
+.content .nue .nu1 {
+  width: 86px;
+  height: 33px;
+  background-color: #438eb9;
+}
+.content .nue .nu2 {
+  width: 74px;
+  height: 33px;
+  background-color: #e9967a;
+}
+.content .nue .nu3 {
+  width: 86px;
+  height: 33px;
+  background-color: #bbb;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    height: 1535px;
+  }
+  .page .dan input {
+    display: block;
+    width: 608px;
+    margin-top: 7px;
+    margin-bottom: 35px;
+    margin-left: 0;
+  }
+  .page .dan .dan1 {
+    width: 587px;
+  }
+  .page .lei {
+    position: relative;
+    display: block;
+  }
+  .page .lei .fen {
+    display: block;
+    margin-left: 0;
+  }
+  .page .lei .fen .box {
+    display: flex;
+    width: 324px;
+    margin-bottom: 20px;
+  }
+  .page .lei .fen .box .show {
+    margin-top: 7px;
+  }
+  .page .lei input[type="submit"] {
+    position: absolute;
+    top: 14px;
+    left: 355px;
+  }
+  .page .inform {
+    display: block;
+    height: 182px;
+  }
+  .page .inform .blok {
+    width: 581px;
+    margin-bottom: 12px;
+  }
+  .page .inform .blok > input {
+    width: 560px;
+  }
+  .page .set {
+    height: 78px;
+    margin-top: 50px;
+  }
+  .page .set input {
+    display: block;
+    width: 606px;
+    margin-left: 0;
+  }
+  .page .go {
+    height: 49px;
+    margin-top: 37px;
+  }
+  .page .go .txt {
+    display: block;
+    margin-bottom: 14px;
+  }
+  .page .go .c1 {
+    margin-left: 0;
+  }
+  .page .dan3 {
+    height: 229px;
+  }
+  .page .dan3 > input {
+    display: block;
+    width: 590px;
+  }
+  .page .nue {
+    margin-left: 150px;
+    margin-top: 32px;
+  }
+}

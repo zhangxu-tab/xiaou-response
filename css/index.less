@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #b0b0b0;
+}
+// 盒子左侧
+.pagel {
+    float: left;
+    width: 220px;
+    .title {
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: #e9967a;
+        font-size: 18px;
+        color: #f9f8f6;
+    }
+    .box {
+        height: 42px;
+        line-height: 42px;
+        font-size: 16px;
+        color: #333;
+        .iconfont {
+            margin-left: 10px;
+            margin-right: 11px;
+        }
+    }
+    .bo {
+        color: #e996a3;
+    }
+    .box1 {
+        height: 105px;
+        margin-left: 30px;
+        .bx {
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+            color: #333333;
+            .iconfont {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        .bx1 {
+            background-color: #e9967a;
+            color: #fff;
+        }
+    }
+}
+// 盒子右侧
+.pager {
+    float: left;
+    width: calc(100% - 220px);
+    .top {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        line-height: 60px;
+        .topl {
+            border-top: 1px solid #b0b0b0;
+            margin-left: 23px;
+            .iconfont {
+                display: none;
+                font-size: 24px;
+            }
+        }
+        .topr {
+            margin-right: 32px;
+            .t1 {
+                float: left;
+                color: #333;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-top: 17px;
+                }
+                .tx {
+                    margin-left: 10px;
+                    margin-right: 40px;
+                }
+            }
+            .t2 {
+                float: left;
+                .iconfont {
+                    font-size: 26px;
+                    color: #007acc;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .content {
+        height: 301px;
+        background-color: #f5f5f5;
+        .ti {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            line-height: 40px;
+            color: #a0522d;
+            border-bottom: 1px solid #b0b0b0;
+            .ti1 {
+                margin-left: 21px;
+            }
+            .ti2 {
+                margin-right: 20px;
+                .iconfont {
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .hezi {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 17px;
+            margin-left: 15px;
+            margin-right: 15px;
+            .box {
+                width: 259px;
+                height: 124px;
+                background-color: #e9967a;
+                border-radius: 9px;
+                .num {
+                    line-height: 51px;
+                    font-size: 24px;
+                    color: #fff;
+                    margin-left: 19px;
+                }
+                .p1 {
+                    line-height: 32px;
+                    color: #fff;
+                    margin-left: 15px;
+                }
+                .x {
+                    line-height: 39px;
+                    text-align: center;
+                    background-color: #d1876e;
+                    border-radius: 0 0 9px 9px;
+                    span {
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                    .iconfont {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .page {
+        width: 100%;
+    }
+    .pager {
+        .content {
+            height: 379px;
+            .hezi {   
+                flex-wrap: wrap;
+                width: 740px;
+                .box {
+                    width: 355px;
+                    height: 124px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .pagel {
+        display: none;
+    }
+    .pager {
+        width: 100%;
+        .top .topl {
+            .iconfont {
+                display: block;
+            }
+        }
+        .topr .t2 {
+            display: none;
+        }
+        .content {
+            height: 595px;
+            .hezi {
+                .box {
+                    width: 721px;
+                    height: 104px;
+                }
+            }
+        }
+    }
+}

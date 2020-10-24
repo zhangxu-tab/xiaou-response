@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 引入iconfont图标 -->
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./css/add.css">
+
+</head>
+<body>
+    <div class="page">
+        <!-- 网页题目 -->
+        <div class="title">小U商城后台管理系统</div>
+        <!-- 内容区 -->
+        <div class="content">
+            <p class="ti">添加商品</p>
+            <form action="#">
+                <div class="dan">
+                    <span>*</span>商品名称：
+                    <input type="text">
+                </div>
+                <div class="dan">
+                    <span>*</span>简单描述：
+                    <input type="text">
+                </div>
+                <div class="dan">
+                    <span>*</span>关键字：&emsp;
+                    <input class="dan1" type="text" placeholder="请用，分隔关键字">
+                </div>
+                <div class="dan lei">
+                    <div class="name">
+                        <span>*</span>产品分类：
+                    </div>
+                    <div class="fen">
+                        <div class="box">
+                            <input class="show" type="checkbox">新品发布
+                        </div>
+                        <div class="box">
+                            <input class="show" type="checkbox">限时促销
+                        </div>
+                        <div class="box">
+                            <input class="show" type="checkbox">特价处理
+                        </div>
+                    </div>
+                    <input type="submit" value="添加分类">
+                </div>
+                <div class="inform">
+                    <div class="blok">
+                        <span class="star">*</span>商品原价：
+                        <input type="text"><span class="liang">元</span> 
+                    </div>
+                    <div class="blok">
+                        <span class="star">*</span>商品现价：
+                        <input type="text"><span class="liang">元</span> 
+                    </div>
+                    <div class="blok">
+                        <span class="star">*</span>商品数量：
+                        <input type="text"><span class="liang">元</span> 
+                    </div>
+                </div>
+                <div class="set">
+                    设置规格：
+                    <input type="text">
+                    <span>如“颜色,尺寸,型号”中间以英文逗号隔开</span>
+                </div>
+                <div class="go">
+                    <span class="txt">是否上架：</span>
+                    <input class="c1" type="checkbox"> <span class="no">是</span>
+                    <input class="c2" type="checkbox"> <span class="no">否</span>
+                </div>
+                <div class="go go1">
+                    <span class="txt">允许评论：</span> 
+                    <input class="c1" type="checkbox"> <span>是</span>
+                    <input class="c2" type="checkbox"> <span>否</span> 
+                </div>
+                <div class="dan dan2">
+                    <span>*</span>产品图片：
+                    <input class="wen" type="file">
+                </div>
+                <div class="dan dan3">
+                    <p><span>*</span>内容介绍：</p>
+                    <input type="text">
+                </div>
+                <div class="nue">
+                    <input class="nu1" type="submit" value="保存并提交">
+                    <input class="nu2" type="submit" value="保存草稿">
+                    <input class="nu3" type="submit" value="取消添加">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

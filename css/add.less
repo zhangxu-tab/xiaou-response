@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+.page {
+    width: 1348px;
+    height: 1078px;
+    margin: 0 auto;
+    background-color: #ececec;
+}
+// 网页题目
+.title {
+    height: 80px;
+    line-height: 80px;
+    background-color: #e9967a;
+    font-size: 28px;
+    color: #fff;
+    padding-left: 52px;
+}
+// 内容区
+.content {
+    margin-top: 15px;
+    margin-left: 29px;
+    .ti {
+        line-height: 51px;
+        font-size: 20px;
+        color: #333;
+    }
+    .dan {
+        margin-bottom: 15px;
+        color: #333;
+        span {
+            display: inline-block;
+            width: 7px;
+            height: 8px;
+            color: #ff0000;
+            margin-right: 10px;
+        }
+        input {
+            width: 727px;
+            height: 30px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-left: 25px;
+            font-size: 12px;
+        }
+        .dan1 {
+            width: 706px;
+            padding-left: 21px;
+        }
+    }
+    .lei {
+        display: flex;
+        .name {
+            margin-top: 20px;
+        }
+        .fen {
+            display: flex;
+            justify-content: space-between;
+            width: 314px;
+            margin-top: 15px;
+            margin-left: 29px;
+            .box {
+                width: 99px;
+                height: 30px;
+                line-height: 30px;
+                border: 1px solid #d5d5d5;
+                border-radius: 2px;
+                font-size: 14px;
+                color: #393939;
+                .show {
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid #c8c8c8;
+                    color: #fff;
+                    margin: 0 5px 0 10px;
+                }
+            }
+        }
+        input[type="submit"] {
+            width: 73px;
+            height: 33px;
+            background-color: #438eb9;
+            border-radius: 2px;
+            font-size: 12px;
+            color: #fff;
+            margin-top: 16px;
+        }
+    }
+    .inform {
+        display: flex;
+        justify-content: space-between;
+        width: 1040px;
+        height: 55px;
+        margin-top: 26px;
+        .blok {
+            width: 180px;
+            color: #333;
+            .star {
+                display: inline-block;
+                width: 7px;
+                height: 8px;
+                color: #ff0000;
+                margin-right: 10px;
+            }
+            input {
+                width: 155px;
+                height: 26px;
+                border: 1px solid #c6c6c6;
+                background-color: #fff;
+                margin-top: 9px;
+            }
+            .liang {
+                font-size: 12px;
+                margin-left: 6px;
+                color: #333;
+            }
+        }
+    }
+    .set {
+        height: 34px;
+        line-height: 34px;
+        color: #333;
+        margin-top: 32px;
+        input {
+            width: 727px;
+            height: 30px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-left: 41px;
+            margin-right: 7px;
+        }
+        span {
+            font-size: 12px;
+            color: #333;
+        }
+    }
+    .go {
+        height: 20px;
+        line-height: 20px;
+        margin-top: 37px;
+        p {
+            display: inline-block;
+            // height: 16px;
+            // line-height: 16px;
+        }
+        input {
+            width: 16px;
+            height: 16px;
+            // vertical-align: middle;
+            background-color: #fff;
+        }
+        .c1 {
+            margin-left: 21px;
+            // vertical-align: middle;
+        }
+        .c2 {
+            margin-left: 39px;
+            // vertical-align: middle;
+        }
+    }
+    .go1 {
+        margin-top: 42px;
+    }
+    .dan2 {
+        margin-top: 35px;
+        .wen {
+            width: 166px;
+            height: 21px;
+            background-color: #ececec;
+            border: none;
+        }
+    }
+    .dan3 {
+        height: 204px;
+        margin-top: 25px;
+        input {
+            width: 1183px;
+            height: 204px;
+            background-color: #fff;
+        }
+        p{
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+    .nue {
+        display: flex;
+        justify-content: space-between;
+        width: 314px;
+        margin: 32px auto;
+        input[type="submit"] {
+            border-radius: 3px;
+            font-size: 12px;
+            color: #fff;
+        }
+        .nu1 {
+            width: 86px;
+            height: 33px;
+            background-color: #438eb9;
+        }
+        .nu2 {
+            width: 74px;
+            height: 33px;
+            background-color: #e9967a;
+        }
+        .nu3 {
+            width: 86px;
+            height: 33px;
+            background-color: #bbb;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .page {
+        height: 1535px;
+        .dan input{
+            display: block;
+            width: 608px;
+            margin-top: 7px;
+            margin-bottom: 35px;
+            margin-left: 0;
+        }
+        .dan .dan1 {
+            width: 587px;
+        }
+        .lei {
+            position: relative;
+            display: block;
+            .fen {
+                display: block;
+                margin-left: 0;
+                .box {
+                    display: flex;
+                    width: 324px;
+                    margin-bottom: 20px;
+                    .show {
+                        margin-top: 7px;
+                    }
+                }
+            }
+            input[type="submit"] {
+                position: absolute;
+                top: 14px;
+                left: 355px;
+            }
+        }
+        .inform {
+            display: block;
+            height: 182px;
+            .blok {
+                width: 581px;
+                margin-bottom: 12px;
+            }
+            .blok>input {
+                width: 560px;
+            }
+        }
+        .set {
+            height: 78px;
+            margin-top: 50px;
+            input {
+                display: block;
+                width: 606px;
+                margin-left: 0;
+            }
+        }
+        .go {
+            height: 49px;
+            margin-top: 37px;
+            .txt {
+                display: block;
+                margin-bottom: 14px;
+            }
+            .c1 {
+                margin-left: 0;
+            }
+        }
+        .dan3 {
+            height: 229px;
+        }
+        .dan3>input {
+            display: block;
+            width: 590px;
+        }
+        .nue {
+            margin-left: 150px;
+            margin-top: 32px;
+        }
+    }
+
+}

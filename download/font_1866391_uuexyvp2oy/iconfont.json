@@ -1,0 +1,79 @@
+{
+  "id": "1866391",
+  "name": "小u后台管理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9162725",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "606294",
+      "name": "注销",
+      "font_class": "zhuxiaologout11",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "622961",
+      "name": "ZS箭头2",
+      "font_class": "jiantou2",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1089306",
+      "name": "文件",
+      "font_class": "buoumaotubiao25",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "1718359",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3590935",
+      "name": "管理员",
+      "font_class": "guanliyuan",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "6367294",
+      "name": "U",
+      "font_class": "U",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "7473686",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "12497986",
+      "name": "商品管理",
+      "font_class": "shangpinguanli",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "12550616",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}

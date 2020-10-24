@@ -1,0 +1,196 @@
+@charset "utf-8";
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.page {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #b0b0b0;
+}
+.pagel {
+  float: left;
+  width: 220px;
+}
+.pagel .title {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #e9967a;
+  font-size: 18px;
+  color: #f9f8f6;
+}
+.pagel .box {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #333;
+}
+.pagel .box .iconfont {
+  margin-left: 10px;
+  margin-right: 11px;
+}
+.pagel .bo {
+  color: #e996a3;
+}
+.pagel .box1 {
+  height: 105px;
+  margin-left: 30px;
+}
+.pagel .box1 .bx {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #333333;
+}
+.pagel .box1 .bx .iconfont {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.pagel .box1 .bx1 {
+  background-color: #e9967a;
+  color: #fff;
+}
+.pager {
+  float: left;
+  width: calc(100% - 220px);
+}
+.pager .top {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+.pager .top .topl {
+  border-top: 1px solid #b0b0b0;
+  margin-left: 23px;
+}
+.pager .top .topl .iconfont {
+  display: none;
+  font-size: 24px;
+}
+.pager .top .topr {
+  margin-right: 32px;
+}
+.pager .top .topr .t1 {
+  float: left;
+  color: #333;
+}
+.pager .top .topr .t1 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 17px;
+}
+.pager .top .topr .t1 .tx {
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.pager .top .topr .t2 {
+  float: left;
+}
+.pager .top .topr .t2 .iconfont {
+  font-size: 26px;
+  color: #007acc;
+  margin-right: 10px;
+}
+.pager .content {
+  height: 301px;
+  background-color: #f5f5f5;
+}
+.pager .content .ti {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  line-height: 40px;
+  color: #a0522d;
+  border-bottom: 1px solid #b0b0b0;
+}
+.pager .content .ti .ti1 {
+  margin-left: 21px;
+}
+.pager .content .ti .ti2 {
+  margin-right: 20px;
+}
+.pager .content .ti .ti2 .iconfont {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.pager .content .hezi {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pager .content .hezi .box {
+  width: 259px;
+  height: 124px;
+  background-color: #e9967a;
+  border-radius: 9px;
+}
+.pager .content .hezi .box .num {
+  line-height: 51px;
+  font-size: 24px;
+  color: #fff;
+  margin-left: 19px;
+}
+.pager .content .hezi .box .p1 {
+  line-height: 32px;
+  color: #fff;
+  margin-left: 15px;
+}
+.pager .content .hezi .box .x {
+  line-height: 39px;
+  text-align: center;
+  background-color: #d1876e;
+  border-radius: 0 0 9px 9px;
+}
+.pager .content .hezi .box .x span {
+  font-size: 12px;
+  color: #fff;
+}
+.pager .content .hezi .box .x .iconfont {
+  margin-left: 10px;
+}
+@media screen and (max-width: 991px) {
+  .page {
+    width: 100%;
+  }
+  .pager .content {
+    height: 379px;
+  }
+  .pager .content .hezi {
+    flex-wrap: wrap;
+    width: 740px;
+  }
+  .pager .content .hezi .box {
+    width: 355px;
+    height: 124px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pagel {
+    display: none;
+  }
+  .pager {
+    width: 100%;
+  }
+  .pager .top .topl .iconfont {
+    display: block;
+  }
+  .pager .topr .t2 {
+    display: none;
+  }
+  .pager .content {
+    height: 595px;
+  }
+  .pager .content .hezi .box {
+    width: 721px;
+    height: 104px;
+  }
+}

@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.page {
+    width: 1363px;
+    height: 609px;
+    margin: 0 auto;
+    padding-top: 47px;
+    background: linear-gradient(white,#ea9c81);
+}
+.iconfont {
+    display: inline-block;
+    width: 100%;
+    font-size: 80px;
+    color: #ff4500;
+    text-align: center;
+}
+form {
+    width: 322px;
+    height: 430px;
+    background-color: #fff;
+    margin: 29px auto;
+    padding: 25px 40px 0 40px;
+    .logo {
+        line-height: 45px;
+        font-size: 20px;
+        color: #333;
+    }
+    p {
+        line-height: 34px;
+        font-size: 14px;
+        color: #333333;
+    }
+    input {
+        width: 316px;
+        height: 36px;
+        border: 2px solid #d9d9d9;
+        border-radius: 3px;
+    }
+    .sel {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+        input[type="checkbox"] {
+            width: 17px;
+            height: 17px;
+            margin-right: 7px;
+        }
+    }
+    input[type="submit"] {
+        height: 40px;
+        background-color: #ff4500;
+        font-size: 18px;
+        color: #fff;
+        border-color: #ff4500;
+        border-radius: 4px;
+        margin-top: 12px;
+    }
+    .last {
+        text-align: center;
+        font-size: 12px;
+        color: #333;
+        margin-top: 12px;
+        a {
+            color: #007acc;
+            text-decoration: underline;
+        }
+    }
+}
+@media screen and (max-width: 1199px) {
+    .page {
+        width: 100%;
+    }
+    form {
+        width: 971px;
+        height: 457px;
+        input {
+            width: 889px;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .page {
+        width: 100%;
+    }
+    form {
+        width: 752px;
+        height: 454px;
+        input {
+            width: 667px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .page {
+        width: 100%;
+    }
+    .iconfont {
+        display: none;
+    }
+    form {
+        width: 690px;
+        height: 455px;
+        input {
+            width: 607px;
+        }
+    }
+}
